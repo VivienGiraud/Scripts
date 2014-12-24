@@ -1,14 +1,24 @@
-- bonjourmamie.sh
-Prerequisites :
+bonjourmamie.sh
+===============
+Prerequisites:
 * jp2a
 * phosphor
 
-Description : This script download the daily photo of bonjourmadame.fr and convert it to ASCII thanks to lib jp2a.
+Description: This script download the daily photo of bonjourmadame.fr and convert it to ASCII thanks to lib jp2a.
 
-- rotate.sh
-Prerequisites :
+rotate.sh
+=========
+Prerequisites:
 * libnotify-dev
 * florence
 * A touch screen (for me it's a hp 2710p laptop, send me feedback to know if it's work fine with other devices :) )
 
-Description : When you execute it it will rotate your screen (and the 'touch') Counter-Clock Wise and open florence on-screen keyboard, execute once more a and you go back to normal.
+Description: When you execute it it will rotate your screen (and the 'touch') Counter-Clock Wise and open florence on-screen keyboard, execute once more a and you go back to normal.
+
+iconSizeXCode.sh (OSX only)
+===========================
+Prerequisites:
+* OSX
+* sips (supplied w/ OSX)
+
+Description: Give your logo as parameter and script will output 4 png of iOs different icons size.
